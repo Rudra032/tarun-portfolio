@@ -1,0 +1,76 @@
+.hero {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  align-items: center;
+}
+.hero-title {
+  margin-top: 70px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.hero-title h1 {
+  text-align: center;
+  font-size: 90px;
+  font-weight: 600;
+  background: linear-gradient(270deg, #df8908 10%, #b415ff 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.hero-title span {
+  text-align: center;
+  font-size: 90px;
+  font-weight: 600;
+}
+.hero p {
+  width: 50%;
+  text-align: center;
+  font-size: 24px;
+  line-height: 40px;
+}
+.hero-action {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+.hero-connect {
+  padding: 25px 45px;
+  border-radius: 50px;
+  background: linear-gradient(264deg, #df8908 10%, #b415ff 100%);
+  cursor: pointer;
+}
+.hero-resume {
+  padding: 25px 75px;
+  border-radius: 50px;
+  border: 2px solid #fff;
+  cursor: pointer;
+}
+.hero-resume a {
+  text-decoration: none;
+  color: white;
+}
+.hero-connect:hover {
+  border: 2px solid white;
+}
+.hero-resume:hover {
+  border-color: #b415ff;
+}
+@media (max-width: 920px) {
+  .hero-title span {
+    font-size: 50px;
+  }
+}
+@media (max-width: 680px) {
+  .hero-action {
+    flex-direction: column;
+  }
+}
