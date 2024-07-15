@@ -42,11 +42,11 @@ const Contact = () => {
           <div className="contact-details">
             <div className="contact-detail">
               <img src={mail_icon} alt="" />
-              <p>rudrarathore148@gmail.com</p>
+              <p>tarunbasediya020@gmail.com</p>
             </div>
             <div className="contact-detail">
               <img src={location_icon} alt="" />
-              <p>+91 8815757230</p>
+              <p>+91 6263320929</p>
             </div>
             <div className="contact-detail">
               <img src={call_icon} alt="" />

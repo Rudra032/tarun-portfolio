@@ -1,16 +1,16 @@
 import React from "react";
 import "./Hero.css";
 import AnchorLink from "react-anchor-link-smooth-scroll";
-import resume from "../../assets/resume2.pdf";
+import resume from "../../assets/Tarun_Basediya_Job_Resume.pdf";
 
 const Hero = () => {
   return (
     <div className="hero" id="home">
       <div className="hero-title">
-        <h1>I'M Rudra Rathore</h1>
+        <h1>I'M Tarun Basediya</h1>
         <span>Full Stack Developer</span>
         <p>
-          Welcome to my portfolio! I'm Rudra Rathore, a Full Stack Developer
+          Welcome to my portfolio! I'm Tarun Basediya, a Full Stack Developer
           turning ideas into reality through innovative web and mobile
           solutions.
         </p>
